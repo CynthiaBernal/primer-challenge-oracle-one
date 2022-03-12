@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilo.css">
+        <title>Challenge Encriptador de Texto </title>
+    </head>
+    <body>
+        <!--Logo -->
+        <div class="contenedor">
+            <div class="logo">
+            <img class="logo-img" src="imagen/Vector.png" alt="logo-alura">
+            <h1 class="titulo">Encriptador de Mensajes</h1>
+        </div>
+        <!--input del texto a encriptar -->
+        <div class="izquierdo">
+           <input class="input-text"  id="input-text" type="text" placeholder="Ingrese el texto aqui ">
+    </div> 
+<!--panel derecho -->
+        <div class="derecho">
+            <img src="imagen/icono.jpg" id="imagen-derecha" alt="imagen-niño">
+            <h1 id="texto-msg">Ningun mensaje fue encontrado</h1>
+            <textarea  id="texto-img" name="name" rows="8" cols="80">Ingrese el texto que deseas encriptar </textarea>
+            <button id="copiar" type="button" name="button" onclick="copiar()">Copiar</button>
+    </div>
+
+        <!--Botones encriptar /desencriptar -->
+        <div class=" boton">
+            <p>Solo minusculas y sin acentos </p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+    <footer>
+        <p class="Copyright"> © 2022 por  Cynthia Bernal . Todos los derechos reservados  </p>
+        
+      </footer>
+   
+
+</html>
